@@ -1,0 +1,40 @@
+
+# requirements.txt — NEXUS Data Platform Dependencies
+ 
+# Azure SDK — Core
+azure-identity==1.15.0
+azure-mgmt-resource==23.0.1
+ 
+# Azure Storage and Data Lake
+azure-storage-file-datalake==12.14.0
+azure-storage-blob==12.19.0
+ 
+# Azure Data Factory
+azure-mgmt-datafactory==6.0.0
+ 
+# Azure Event Hubs (streaming)
+azure-eventhub==5.11.5
+ 
+# Azure Key Vault
+azure-keyvault-secrets==4.7.0
+ 
+# Azure SQL (ODBC driver required separately)
+pyodbc==5.0.1
+sqlalchemy==2.0.25
+ 
+# Data processing
+pandas==2.1.4
+pyarrow==14.0.2
+numpy==1.26.3
+ 
+# Data generation for fake banking data
+faker==22.2.0
+ 
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+tqdm==4.66.1
+ 
+# Code quality
+black==23.12.1
+flake8==7.0.0
