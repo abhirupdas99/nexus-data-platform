@@ -1,0 +1,33 @@
+
+# Add these to the existing .gitignore file
+ 
+# Environment and secrets — NEVER commit these
+config/.env
+.env
+*.key
+*.pem
+*.pfx
+ 
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+ 
+# Raw data files (too large for GitHub)
+data/raw/
+data/paysim_daily/
+*.parquet
+*.csv
+ 
+# VS Code workspace settings
+.vscode/settings.json
+ 
+# Azure CLI auth files
+.azure/
+ 
+# Jupyter notebooks (use .py files instead for Git)
+*.ipynb
+.ipynb_checkpoints/
